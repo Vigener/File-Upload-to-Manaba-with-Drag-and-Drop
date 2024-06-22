@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "File Upload for manaba (Drag and Drop)",
+  "version": "1.0",
+  "description": "manabaの課題をドラッグアンドドロップでアップロードする",
+  "content_scripts": [
+    {
+      "matches": ["https://manaba.tsukuba.ac.jp/ct/*report*"],
+      "js": ["content.js"]
+    }
+  ]
+}
